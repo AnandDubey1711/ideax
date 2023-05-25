@@ -1,0 +1,39 @@
+nav{
+  background:rgb(7, 136, 138,0.14);
+  width: max-content;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  position: fixed;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 2rem;
+  display: flex;
+  gap:0.8rem;
+  border-radius: 2rem;
+  backdrop-filter: blur(15px);
+}
+svg{
+  border-radius: 1px;
+  background: #1c2e3f
+}
+
+nav a{
+  background: transparent;
+  padding:0.9rem;
+  border-radius: 50%;
+  display:flex;
+  color:rgb(226, 223, 223);
+  font-size: 1rem;
+
+}
+
+nav a:hover{
+  background: lightblue;
+
+}
+
+nav a.active{
+  background: lightblue;
+  color: white;
+}

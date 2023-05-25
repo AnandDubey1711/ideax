@@ -1,0 +1,104 @@
+.algorithm {
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.algo_design {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.algo_heading {
+  color: white;
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+
+.card {
+  border: 2.4px solid white;
+  background: rgb(19 18 25);
+  display: inline-flex;
+  height: max-content;
+  width: max-content;
+  padding: 40px;
+  margin: 10px 0px 10px 20px;
+  border-radius: 10px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 40px;
+  margin-bottom: 40px;
+  gap: 2.5;
+  background: url("../../assets/landscape.gif");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 100% 50%;
+  background-position-y: bottom;
+  transform: matrix3d(
+    1,
+    0,
+    5,
+    0.00002,
+    0,
+    1.1,
+    0,
+    0,
+    1,
+    0,
+    1.4,
+    0,
+    0.3,
+    0,
+    0,
+    1
+  );
+}
+
+.algo_card {
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(19 18 25);
+}
+.algo_name {
+  font-size: 24px;
+  font-family: sans-serif;
+  color: white;
+  background-color: rgb(19 18 25);
+  text-align: center;
+  text-transform: uppercase;
+}
+.algo_details {
+  background: rgb(19 18 25);
+  color: white;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 18px;
+  font-family: sans-serif;
+  padding: 5px;
+}
+.algo_button {
+  display: flex;
+  font-size: 18px;
+  background: rgb(19 18 25);
+  cursor: pointer;
+  padding: 8px;
+  border: 3px solid white;
+  border-radius: 15px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.algo_btn {
+  background: rgb(19 18 25);
+  justify-content: center;
+  display: flex;
+  margin: 20px 0px 0px 0px;
+}
+
+.algo_button:hover {
+  background-color: white;
+  color: rgb(7, 29, 29);
+}
